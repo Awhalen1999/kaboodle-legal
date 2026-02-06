@@ -141,16 +141,6 @@ export default function PrivacyPolicy() {
           </section>
         </div>
 
-        <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-200">
-          <p className="text-xs sm:text-sm text-gray-600">
-            Last updated:{" "}
-            {new Date().toLocaleDateString("en-US", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-          </p>
-        </div>
       </div>
     </div>
   );

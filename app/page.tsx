@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 md:p-8">
       <div className="max-w-md w-full">
-        <h1 className="text-2xl sm:text-3xl font-semibold mb-6 sm:mb-8 text-center">Kaboodle Legal</h1>
+        <h1 className="text-2xl sm:text-3xl font-semibold mb-6 sm:mb-8 text-center">
+          Kaboodle
+        </h1>
         <div className="flex flex-col gap-3 sm:gap-4">
           <Link
             href="/terms-of-service"
@@ -23,6 +25,12 @@ export default function Home() {
             className="block p-3 sm:p-4 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors text-center text-sm sm:text-base"
           >
             Data Deletion
+          </Link>
+          <Link
+            href="/support"
+            className="block p-3 sm:p-4 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors text-center text-sm sm:text-base"
+          >
+            Support
           </Link>
         </div>
       </div>

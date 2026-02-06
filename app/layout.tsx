@@ -14,8 +14,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
-        {children}
+      <body className="antialiased min-h-screen flex flex-col">
+        <main className="flex-1">{children}</main>
+        <footer className="border-t border-gray-200 py-6 px-4">
+          <p className="text-xs sm:text-sm text-gray-600 text-center">
+            © 2026 Kaboodle. All rights reserved.
+          </p>
+        </footer>
       </body>
     </html>
   );
