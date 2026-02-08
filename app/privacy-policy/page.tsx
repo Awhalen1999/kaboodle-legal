@@ -131,13 +131,45 @@ export default function PrivacyPolicy() {
               If you have any questions about this Privacy Policy or our data
               practices, contact us at{" "}
               <a
-                href="mailto:awhalendev@kaboodle.now"
+                href="mailto:awhalendev@gmail.com"
                 className="text-blue-600 hover:text-blue-800"
               >
-                awhalendev@kaboodle.now
+                awhalendev@gmail.com
               </a>
               .
             </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">
+              Additional Resources
+            </h2>
+            <ul className="space-y-2 text-sm sm:text-base">
+              <li>
+                <Link
+                  href="/terms-of-service"
+                  className="text-blue-600 hover:text-blue-800"
+                >
+                  Terms of Service
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/data-deletion"
+                  className="text-blue-600 hover:text-blue-800"
+                >
+                  Data Deletion
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/support"
+                  className="text-blue-600 hover:text-blue-800"
+                >
+                  Support
+                </Link>
+              </li>
+            </ul>
           </section>
         </div>
 

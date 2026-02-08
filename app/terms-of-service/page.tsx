@@ -113,6 +113,38 @@ export default function TermsOfService() {
               the updated terms.
             </p>
           </section>
+
+          <section>
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">
+              Additional Resources
+            </h2>
+            <ul className="space-y-2 text-sm sm:text-base">
+              <li>
+                <Link
+                  href="/privacy-policy"
+                  className="text-blue-600 hover:text-blue-800"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/data-deletion"
+                  className="text-blue-600 hover:text-blue-800"
+                >
+                  Data Deletion
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/support"
+                  className="text-blue-600 hover:text-blue-800"
+                >
+                  Support
+                </Link>
+              </li>
+            </ul>
+          </section>
         </div>
 
       </div>
