@@ -11,9 +11,12 @@ export default function PrivacyPolicy() {
           ← Back
         </Link>
 
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
           Privacy Policy
         </h1>
+        <p className="text-gray-500 text-sm mb-6 sm:mb-8">
+          Last updated: October 29, 2026
+        </p>
 
         <div className="prose prose-lg max-w-none space-y-6">
           <section>
@@ -21,23 +24,32 @@ export default function PrivacyPolicy() {
               1. Information We Collect
             </h2>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-              We collect information you provide directly when using the app,
-              including your email address, authentication credentials, and
-              profile information such as a profile photo if you sign in using
-              Google or Apple. We also collect user-generated content, including
-              packing lists and related planning data.
+              Kaboodle for iPhone and iPad does not require an account. We do
+              not ask for your name, email address or password.
             </p>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base mt-3">
-              We automatically collect certain technical and usage information,
-              such as app usage data, crash reports, and device information, to
-              improve performance and reliability. We do not intentionally
-              collect precise location data.
+              Your trips and packing lists are stored on your device. If iCloud
+              is turned on, they are also stored in your private iCloud account
+              through Apple&apos;s CloudKit so they sync across your devices.
+              We cannot access this data.
             </p>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base mt-3">
-              Subscription and purchase information is processed by Apple App
-              Store and Google Play. We do not store full payment details.
-              Subscription status and related metadata may be processed via
-              RevenueCat.
+              We collect usage analytics to understand how the app is used, such
+              as when a list is created, opened or finished, along with the trip
+              answers that shape suggestions (destination country, trip purpose
+              and who you are packing for), the app version and basic device
+              information. This data is tied to a random identifier, not to your
+              name or email. Trip names, descriptions and notes are never sent
+              to us.
+            </p>
+            <p className="text-gray-700 leading-relaxed text-sm sm:text-base mt-3">
+              Payments are processed by Apple. We do not receive your payment
+              details. Your subscription status is recorded by RevenueCat
+              against the same random identifier.
+            </p>
+            <p className="text-gray-700 leading-relaxed text-sm sm:text-base mt-3">
+              We do not collect precise location, we do not show ads, and we do
+              not track you across other companies&apos; apps or websites.
             </p>
           </section>
 
@@ -46,15 +58,9 @@ export default function PrivacyPolicy() {
               2. How We Use Your Information
             </h2>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-              We use your information to operate and improve the app,
-              authenticate users, store and sync packing lists, manage
-              subscriptions, provide customer support, and communicate important
-              service-related messages.
-            </p>
-            <p className="text-gray-700 leading-relaxed text-sm sm:text-base mt-3">
-              We may also use your email address to send optional product
-              updates or announcements. You may opt out of non-essential
-              communications where applicable.
+              We use this information to provide the app, unlock Kaboodle Pro
+              for subscribers, understand which features are used so we can
+              improve them, and help you when you contact support.
             </p>
           </section>
 
@@ -63,41 +69,53 @@ export default function PrivacyPolicy() {
               3. Third-Party Services
             </h2>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-              We use third-party service providers to operate and improve the
-              app. These providers process data on our behalf and in accordance
-              with their own privacy policies.
+              We use the following providers to operate the app. They process
+              data on our behalf and in accordance with their own privacy
+              policies.
             </p>
             <ul className="list-disc pl-6 text-gray-700 text-sm sm:text-base">
-              <li>Firebase – authentication and core app services</li>
-              <li>PostHog – analytics and product usage insights</li>
-              <li>RevenueCat – subscription and purchase management</li>
-              <li>
-                Vercel and Neon – application hosting and database
-                infrastructure
-              </li>
-              <li>
-                Apple App Store and Google Play – payment processing and
-                distribution
-              </li>
+              <li>Apple: iCloud sync, App Store payments and distribution</li>
+              <li>PostHog: usage analytics</li>
+              <li>RevenueCat: subscription management</li>
+              <li>Vercel: hosting for our websites</li>
             </ul>
           </section>
 
           <section>
             <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">
-              4. Data Retention
+              4. Earlier Versions and Accounts
             </h2>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-              We retain personal data for as long as your account is active or
-              as necessary to provide the service. When an account is deleted,
-              personal data is removed from active systems within a reasonable
-              period. Some data may be retained for legal, accounting, or
-              security purposes.
+              Earlier versions of Kaboodle (1.x), including the Android app,
+              offered sign-in with email, Google or Apple and stored packing
+              lists on our servers using Firebase, Vercel and Neon. If you
+              created an account in an earlier version, that account&apos;s
+              data is covered by this policy until it is deleted. See{" "}
+              <Link
+                href="/data-deletion"
+                className="text-blue-600 hover:text-blue-800"
+              >
+                Data Deletion
+              </Link>{" "}
+              to remove it.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">
-              5. International Data Transfers
+              5. Data Retention
+            </h2>
+            <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+              Your trips stay on your device and in your iCloud account until
+              you delete them. Analytics data is kept only as long as it is
+              useful for improving the app. Purchase records may be kept by
+              Apple and RevenueCat for legal, tax and accounting purposes.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">
+              6. International Data Transfers
             </h2>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
               Your information may be processed and stored in countries other
@@ -109,13 +127,15 @@ export default function PrivacyPolicy() {
 
           <section>
             <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">
-              6. Your Rights
+              7. Your Rights
             </h2>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-              You have the right to access, correct, or delete your personal
-              data. Users may delete their account at any time using the in-app
-              deletion feature. Depending on your location, you may have
-              additional rights under applicable laws, including GDPR and CCPA.
+              You can delete every trip and packing list at any time from
+              Settings &gt; Erase All Data, which removes them from your device
+              and iCloud. To access or delete analytics data, email us with the
+              Support ID shown in Settings. Depending on your location, you may
+              have additional rights under applicable laws, including GDPR and
+              CCPA.
             </p>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base mt-3">
               This app is not intended for children under the age of 13, and we
@@ -125,7 +145,17 @@ export default function PrivacyPolicy() {
 
           <section>
             <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">
-              7. Contact Us
+              8. Changes to This Policy
+            </h2>
+            <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+              We may update this Privacy Policy from time to time. The date at
+              the top of this page shows when it was last changed.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">
+              9. Contact Us
             </h2>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
               If you have any questions about this Privacy Policy or our data

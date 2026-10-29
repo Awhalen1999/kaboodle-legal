@@ -48,9 +48,9 @@ export default function Support() {
                   How do I create a packing list?
                 </h3>
                 <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                  Open the app, tap &quot;Create New List,&quot; enter your trip
-                  details, and we&apos;ll generate personalized suggestions based
-                  on your destination and travel style.
+                  Tap + on the home screen, enter your trip name, dates and
+                  destination, then answer a few quick questions. Kaboodle
+                  suggests what to bring. Keep what you need and add your own.
                 </p>
               </div>
 
@@ -59,9 +59,10 @@ export default function Support() {
                   How do subscriptions work?
                 </h3>
                 <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                  Kaboodle offers a free tier with up to 2 lists. Upgrade to Pro
-                  for unlimited lists. Manage your subscription from your
-                  profile page in the app.
+                  Kaboodle is free with one upcoming trip at a time; past trips
+                  don&apos;t count. Kaboodle Pro unlocks unlimited trips, with
+                  monthly or yearly plans. Upgrade from Settings &gt; Plan in the
+                  app.
                 </p>
               </div>
 
@@ -70,18 +71,37 @@ export default function Support() {
                   Can I reuse my packing lists?
                 </h3>
                 <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                  Yes! Save any list and reuse it for future trips. Perfect for
-                  frequent travelers or recurring destinations.
+                  Yes. Press and hold any trip on the home screen and choose
+                  &quot;Reuse List.&quot; You get a new trip with the same answers
+                  and items, ready to pack again.
                 </p>
               </div>
 
               <div>
                 <h3 className="text-base sm:text-lg font-medium mb-1">
-                  How do I delete my account?
+                  Where did my lists from the old version go?
                 </h3>
                 <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                  Open your profile page and tap &quot;Delete Account.&quot; This
-                  will permanently remove all your data.
+                  Kaboodle 2.0 is a fresh start, rebuilt from the ground up.
+                  Lists made in earlier versions don&apos;t carry over.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-base sm:text-lg font-medium mb-1">
+                  How do I delete my data?
+                </h3>
+                <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+                  Kaboodle doesn&apos;t use accounts. Go to Settings and tap
+                  &quot;Erase All Data&quot; to remove every trip from your
+                  device and iCloud. For an account from an earlier version, see{" "}
+                  <Link
+                    href="/data-deletion"
+                    className="text-blue-600 hover:text-blue-800"
+                  >
+                    Data Deletion
+                  </Link>
+                  .
                 </p>
               </div>
 
@@ -90,9 +110,9 @@ export default function Support() {
                   My list suggestions aren&apos;t accurate. What should I do?
                 </h3>
                 <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                  Make sure your trip details (destination, dates, weather,
-                  accommodation type) are correct. You can always customize
-                  suggestions to fit your needs.
+                  Check your trip&apos;s dates and answers. Open the trip, tap
+                  the ••• menu and choose &quot;Edit Trip&quot; to change them.
+                  You can always remove items or add your own.
                 </p>
               </div>
 
@@ -112,9 +132,10 @@ export default function Support() {
                   Is my data backed up?
                 </h3>
                 <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-                  Yes. Your lists and account data are securely synced to the
-                  cloud, so you won&apos;t lose anything if you switch devices or
-                  reinstall the app.
+                  If iCloud is turned on, your lists sync across your iPhone and
+                  iPad and come back when you reinstall the app with the same
+                  Apple Account. Without iCloud, they are stored on your device
+                  only.
                 </p>
               </div>
 
@@ -126,7 +147,7 @@ export default function Support() {
                   Try closing and reopening the app, or restarting your device.
                   Make sure you&apos;re running the latest version. If the issue
                   persists, contact us at awhalendev@gmail.com with a description
-                  of the problem.
+                  of the problem and the Support ID from the app&apos;s Settings.
                 </p>
               </div>
             </div>

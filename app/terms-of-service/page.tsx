@@ -11,9 +11,12 @@ export default function TermsOfService() {
           ← Back
         </Link>
 
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
           Terms of Service
         </h1>
+        <p className="text-gray-500 text-sm mb-6 sm:mb-8">
+          Last updated: October 29, 2026
+        </p>
 
         <div className="prose prose-lg max-w-none space-y-6">
           <section>
@@ -53,20 +56,35 @@ export default function TermsOfService() {
               4. Subscriptions and Payments
             </h2>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-              Certain features may require a paid subscription. Payments and
-              subscriptions are processed through Apple App Store or Google Play
-              and are subject to their respective terms and policies.
+              Kaboodle is free to use with one upcoming trip at a time. Kaboodle
+              Pro is an auto-renewable subscription, offered monthly or yearly,
+              that unlocks unlimited trips.
+            </p>
+            <p className="text-gray-700 leading-relaxed text-sm sm:text-base mt-3">
+              Payment is charged to your Apple Account when you confirm the
+              purchase. Your subscription renews automatically at the same price
+              unless you cancel at least 24 hours before the end of the current
+              period. You can manage or cancel it at any time in your App Store
+              account settings. Purchases are subject to Apple&apos;s terms, and
+              to Google Play&apos;s for earlier Android versions.
             </p>
           </section>
 
           <section>
             <h2 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4">
-              5. Account Termination
+              5. Your Data
             </h2>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-              You may delete your account at any time using the in-app deletion
-              feature. We reserve the right to suspend or terminate accounts
-              that violate these terms or misuse the service.
+              The app does not require an account. You can delete every trip
+              and packing list at any time from Settings &gt; Erase All Data.
+              If you created an account in an earlier version, see{" "}
+              <Link
+                href="/data-deletion"
+                className="text-blue-600 hover:text-blue-800"
+              >
+                Data Deletion
+              </Link>
+              .
             </p>
           </section>
 
@@ -75,9 +93,9 @@ export default function TermsOfService() {
               6. Intellectual Property
             </h2>
             <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
-              The app and its content are owned by us or our licensors. You
-              retain ownership of content you create, but grant us a limited
-              license to store and process it solely to provide the service.
+              The app and its content are owned by us or our licensors. You own
+              the trips and packing lists you create. They are stored on your
+              device and in your iCloud account, and we do not access them.
             </p>
           </section>
 
